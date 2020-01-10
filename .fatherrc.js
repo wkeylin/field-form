@@ -5,4 +5,11 @@ export default {
     eslint: true,
     prettier: true,
   },
+  extraBabelPlugins: [
+    ["@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ],
+  ],
 };
